@@ -99,7 +99,6 @@ figure {
   margin-top: 0.5em;
 }
 
-
 /* MOVIE styles */
 .movie {
   position: relative;
@@ -194,4 +193,70 @@ figure {
 
 .about > p {
   margin: 0;
+}
+
+/*@media (min-width: 768px) {
+  .site-header {
+    width: 8%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 104;
+  }
+
+  .movie-overview {
+    display: inline-block;
+  }
+
+
+  .site-logo {
+    position: fixed;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 61px;
+    height: 80px;
+    margin: 0;
+    z-index: 102;
+    /* float: left; */
+    /* background-color: white; */
+
+/*@media (max-width: 767px) {
+  .site-nav {
+    position: fixed;*/
+  /*
+  /*.site-logo {
+    position: fixed;
+  }*/
+
+
+@media (min-width: 768px) {
+  .site-nav {
+    width: 10%;
+    position: fixed;
+    top: 7em;
+    left: 0;
+    margin: 0;
+
+  }
+  .site-nav-item {
+    /*clear: left;*/
+    width: 100%;
+  }
+  .site-logo {
+    background-color: #ffffff;
+    width: 86px;
+    height: 100%;
+    padding: 12px;
+    top: 0;
+    left: 0;
+  }
+
+  .movie-overview {
+    display: inline-block;
+  }
+
+  main {
+    margin-left: 10;
+
+  }
 }
