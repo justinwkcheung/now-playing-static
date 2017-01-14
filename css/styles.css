@@ -231,9 +231,9 @@ figure {
 
 @media (min-width: 768px) {
   .site-nav {
-    width: 10%;
+    width: 4.375rem;
     position: fixed;
-    top: 7em;
+    top: 4.5rem;
     left: 0;
     margin: 0;
 
@@ -244,7 +244,7 @@ figure {
   }
   .site-logo {
     background-color: #ffffff;
-    width: 86px;
+    width: 4.375rem;
     height: 100%;
     padding: 12px;
     top: 0;
@@ -261,7 +261,7 @@ figure {
 
   footer.site-footer {
     /* float: left; */
-    margin-left: 10%;
+    margin-left: 4.375rem;
   }
 
   nav.footer-nav {
