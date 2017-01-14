@@ -256,7 +256,44 @@ figure {
   }
 
   main {
-    margin-left: 10;
+    margin-left: 10%;
+  }
 
+  footer.site-footer {
+    /* float: left; */
+    margin-left: 10%;
+  }
+
+  nav.footer-nav {
+    float: left;
+    color: white;
+    padding-left: 8%;
+  }
+
+  body {
+    padding-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .movie:nth-child(n+2) {
+    width: 33.333333333%;
+    float: left;
+  }
+
+  .movie:nth-child(n+2) .movie-overview {
+    display: none;
+  }
+
+  .movie:nth-child(n+2) .movie-backdrop {
+    display: none;
+  }
+
+  .movie:nth-child(n+2) .movie-poster {
+    display: block;
+  }
+
+  footer {
+    clear:left;
   }
 }
